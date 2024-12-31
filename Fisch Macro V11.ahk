@@ -45,7 +45,7 @@ NavigationKey := "ň"
 ;     SHAKE SETTINGS     ====================================================================================================;
 
 ; Change to "Navigation" or "Click"
-ShakeMode := "Navigation"
+ShakeMode := "Click"
 
 ; Color range to scan for fish bar
 FishBarColorTolerance := 0
@@ -319,7 +319,7 @@ gosub, Calculations
 settimer, runtime, 1000
 
 tooltip, Press "O" to Reload, %TooltipX%, %Tooltip4%, 4
-tooltip, Press "M" to Exit, %TooltipX%, %Tooltip5%, 5
+tooltip, Press "x" to Exit, %TooltipX%, %Tooltip5%, 5
 
 tooltip, , , , 6
 tooltip, , , , 10
@@ -439,7 +439,7 @@ if (AutoBlurCamera == true)
 	{
 	sleep %AutoBlurDelay%
 	send {m}
-	tooltip, Action: Press M, %TooltipX%, %Tooltip8%, 8
+	tooltip, Action: Press k, %TooltipX%, %Tooltip8%, 8
 	sleep %AutoBlurDelay%
 	}
 
