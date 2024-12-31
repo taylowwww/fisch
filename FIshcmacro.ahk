@@ -12,12 +12,12 @@ CoordMode, Mouse, Screen
 RodRecastDelay := 2000
 
 ; How long to hold the cast for before releasing
-HoldRodCastDuration := 3000
+HoldRodCastDuration := 300
 
 ;======    Shake Settings    =====================================================================;
 
 ; Change To "Navigation" or "Click"
-ShakeMode := "Navigation"
+ShakeMode := "click"
 WhiteBarColorTolerance := 15
 FishBarColorTolerance := 2
 
